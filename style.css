@@ -50,7 +50,7 @@ ul {
     display: flex;
 }
 
-.btn {
+.main-box__btn {
     outline: none;
     background: none;
     border: 0;
@@ -61,7 +61,7 @@ ul {
     cursor: pointer;
 }
 
-.btn:hover {
+.main-box__btn:hover {
     color: #3a3a3a;
 }
 
@@ -106,7 +106,7 @@ ul {
 }
 
 /* Task list */
-.list {
+.main-box__list {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;

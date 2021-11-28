@@ -18,6 +18,7 @@ var completedTasksHolder=document.querySelector(".main-box__closed-task");//main
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
+    listItem.classList='main-box__list';
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
@@ -42,9 +43,9 @@ var createNewTaskElement=function(taskString){
     editInput.classList="main-box__task main-box__input-text";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-    editButton.classList="main-box__btn-edit btn";
+    editButton.classList="main-box__btn-edit main-box__btn";
 
-    deleteButton.classList="main-box__btn-del btn";
+    deleteButton.classList="main-box__btn-del main-box__btn";
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
 
@@ -65,7 +66,7 @@ var addTask=function(){
     //Create a new list item with the text from the #main-box__input-add:
     if (!taskInput.value) return;
     var listItem=createNewTaskElement(taskInput.value);
-    listItem.classList='list';
+    listItem.classList='main-box__list';
 
     //Append listItem to incompleteTaskHolder
     incompleteTaskHolder.appendChild(listItem);
