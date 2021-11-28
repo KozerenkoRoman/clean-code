@@ -109,7 +109,7 @@ h3,
 /* New Task */
 .main-box__label-add {
     display: block;
-    margin: 0 0 20px
+    margin: 0 0 20px;
 }
 
 /* Task list */
@@ -154,7 +154,7 @@ h3,
 
 .main-box__task {
     width: 56%;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 /* Edit Task */
