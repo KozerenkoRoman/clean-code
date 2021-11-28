@@ -33,9 +33,11 @@ ul {
 }
 
 @media (max-width: 768px) {
+
     .title {
         text-align: center;
     }
+
 }
 
 .main-box {
@@ -65,7 +67,7 @@ ul {
 
 /* Heading */
 h3,
-.main-box__label-add {
+.main-box__label-add{
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -107,7 +109,7 @@ h3,
 /* New Task */
 .main-box__label-add {
     display: block;
-    margin: 0 0 20px;
+    margin: 0 0 20px
 }
 
 /* Task list */
