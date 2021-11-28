@@ -7,58 +7,57 @@
 </head>
 <body>
 
-<div class="aaa">
+<div class="title">
     <img src="./eisenhower-matrix.jpg">
-    <a class="more_inf"
+    <a class="title__info"
        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
 </div>
 
 <div class="main-page">
-
-    <p class="main-page__top-section">
-        <label for="main-page__button-new">Add Item</label>
+    <p class="main-page__block-top">
+        <label for="main-page__input-add">Add Item</label>
     <div class="main-page__row-wrapper">
-        <input id="main-page__button-new"
+        <input id="main-page__input-add"
                class="main-page__task"
                type="text">
-        <button>Add</button>
+        <button class="main-page__btn-add">Add</button>
     </div>
     </p>
 
     <h3>Todo</h3>
-    <ul id="main-page__incompleted-task">
+    <ul class="main-page__opened-task">
         <li>
             <input type="checkbox">
             <label class="main-page__task">Go Shopping</label>
             <input type="text"
                    class="main-page__task">
-            <button class="main-page__button-edit">Edit</button>
-            <button class="main-page__button-delete">
+            <button class="main-page__btn-edit">Edit</button>
+            <button class="main-page__btn-del">
                 <img src="./remove.svg">
             </button>
         </li>
-        <li class="editMode">
+        <li class="main-page__edit-mode">
             <input type="checkbox">
             <label class="main-page__task">New main-page__task</label>
             <input type="text"
                    value="New Task"
                    class="main-page__task">
-            <button class="main-page__button-edit">Save</button>
-            <button class="main-page__button-delete">
+            <button class="main-page__btn-edit">Save</button>
+            <button class="main-page__btn-del">
                 <img src="./remove.svg">
             </button>
         </li>
     </ul>
 
     <h3>Completed</h3>
-    <ul id="main-page__completed-task">
+    <ul id="main-page__closed-task">
         <li>
             <input type="checkbox" checked>
             <label class="main-page__task">See the Doctor</label>
             <input type="text"
                    class="main-page__task">
-            <button class="main-page__button-edit">Edit</button>
-            <button class="main-page__button-delete">
+            <button class="main-page__btn-edit">Edit</button>
+            <button class="main-page__btn-del">
                 <img src="./remove.svg">
             </button>
         </li>
