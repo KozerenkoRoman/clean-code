@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen">
 </head>
-<body>
+<body class="main-page">
 
 <div class="title">
     <img src="./eisenhower-matrix.jpg">
@@ -13,51 +13,51 @@
        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
 </div>
 
-<div class="main-page">
-    <p class="main-page__block-top">
-        <label for="main-page__input-add">Add Item</label>
-    <div class="main-page__row-wrapper">
-        <input id="main-page__input-add"
-               class="main-page__task"
+<div class="main-box">
+    <p class="main-box__block-top">
+        <label class="main-box__label-add" for="main-box__input-add">Add Item</label>
+    <div class="main-box__row-wrapper">
+        <input id="main-box__input-add"
+               class="main-box__input-add main-box__task"
                type="text">
-        <button class="main-page__btn-add">Add</button>
+        <button class="main-box__btn-add btn">Add</button>
     </div>
     </p>
 
     <h3>Todo</h3>
-    <ul class="main-page__opened-task">
-        <li>
-            <input type="checkbox">
-            <label class="main-page__task">Go Shopping</label>
+    <ul class="main-box__opened-task">
+        <li class="main-box__open-mode list">
+            <input class="main-box__check-box" type="checkbox">
+            <label class="main-box__label-task">Go Shopping</label>
             <input type="text"
-                   class="main-page__task">
-            <button class="main-page__btn-edit">Edit</button>
-            <button class="main-page__btn-del">
+                   class="main-box__task main-box__input-text">
+            <button class="main-box__btn-edit btn">Edit</button>
+            <button class="main-box__btn-del btn">
                 <img src="./remove.svg">
             </button>
         </li>
-        <li class="main-page__edit-mode">
-            <input type="checkbox">
-            <label class="main-page__task">New main-page__task</label>
+        <li class="main-box__edit-mode list">
+            <input class="main-box__check-box" type="checkbox">
+            <label class="main-box__label-task">New Task</label>
             <input type="text"
                    value="New Task"
-                   class="main-page__task">
-            <button class="main-page__btn-edit">Save</button>
-            <button class="main-page__btn-del">
+                   class="main-box__task main-box__input-text">
+            <button class="main-box__btn-edit btn">Save</button>
+            <button class="main-box__btn-del btn">
                 <img src="./remove.svg">
             </button>
         </li>
     </ul>
 
     <h3>Completed</h3>
-    <ul id="main-page__closed-task">
-        <li>
-            <input type="checkbox" checked>
-            <label class="main-page__task">See the Doctor</label>
+    <ul class="main-box__closed-task">
+        <li class="main-box__close-mode list">
+            <input class="main-box__check-box" type="checkbox" checked>
+            <label class="main-box__label-task">See the Doctor</label>
             <input type="text"
-                   class="main-page__task">
-            <button class="main-page__btn-edit">Edit</button>
-            <button class="main-page__btn-del">
+                   class="main-box__task main-box__input-text">
+            <button class="main-box__btn-edit btn">Edit</button>
+            <button class="main-box__btn-del btn">
                 <img src="./remove.svg">
             </button>
         </li>
